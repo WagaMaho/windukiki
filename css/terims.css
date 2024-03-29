@@ -1,0 +1,143 @@
+body {
+    background-image: url(../foto/mintosko-Ro0PNXcpCus-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: fit-content;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    border: 3px solid black;
+    padding-top: 1%;
+}
+
+.container section {
+    padding: 0%;
+    padding-bottom: 1%;
+    font-family: "poppins";
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+}
+
+.container p {
+    padding: 0%;
+    padding-bottom: 1%;
+    font-family: "poppins";
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.container hr {
+    height: 10px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 0%;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box a {
+    display: flex;
+    justify-content: center;
+    font-family: "poppins";
+    font-weight: bolder;
+    border-radius: 50px;
+    border: 3px solid black;
+    width: fit-content;
+    padding: 1%;
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.box a:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width : 411px) {
+    .container {
+        background-color: white;
+        border-radius: 20px;
+        width: 100%;
+        height: fit-content;
+        margin-top: 50%;
+        margin-bottom: 2%;
+        border: 3px solid black;
+        padding-top: 1%;
+    }
+    
+    .container section {
+        padding-top: 5%;
+        padding-bottom: 1%;
+        font-family: "poppins";
+        color: rgb(255, 0, 0);
+        font-weight: 800;
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container p {
+        padding: 0%;
+        padding-bottom: 1%;
+        font-family: "poppins";
+        color: rgb(0, 0, 0);
+        font-weight: 800;
+        font-size: xx-small;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .container hr {
+        height: 3px;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0);
+        border-style: none;
+        border-radius: 10px;
+        border: 3px solid black;
+        margin-top: 0%;
+    
+    }
+    
+    .box {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .box a {
+        display: flex;
+        justify-content: center;
+        font-family: "poppins";
+        font-weight: bolder;
+        border-radius: 50px;
+        border: 3px solid black;
+        width: fit-content;
+        padding: 1%;
+        transition: transform 0.2s ease;
+        text-decoration: none;
+        color: black;
+        font-size: small;
+    }
+}
